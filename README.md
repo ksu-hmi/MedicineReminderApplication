@@ -74,3 +74,37 @@ buildozer -v android debug
 
 
 This command will download the necessary tools, compile your application, and package it into an APK file. The -v flag provides verbose output.
+
+# Medicine Reminder App
+
+![Medicine Reminder App](demo.png)
+
+A simple yet powerful medicine reminder application built with Python using Kivy and KivyMD. This app helps users set reminders for their medications and notifies them at the specified intervals.
+
+## Features
+
+- Set reminders with medication name and interval (in hours).
+- View a list of all active reminders.
+- Edit or delete existing reminders.
+- Receive notifications with medication details.
+
+## Installation
+
+### Prerequisites
+
+- Python 3.6+
+- Git
+- Buildozer (Python tool to package the application)
+- Java JDK (for compiling the application)
+- Android SDK (Android development tools)
+
+### Step 1: Set Up Your Environment
+
+#### On Ubuntu (or other Debian-based distributions):
+
+```sh
+sudo apt update
+sudo apt install -y python3-pip python3-dev build-essential git \
+    python3-venv libffi-dev libssl-dev liblzma-dev zlib1g-dev \
+    libgdbm-dev libsqlite3-dev libreadline-dev libncurses5-dev libbz2-dev \
+    openjdk-11-jdk
