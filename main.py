@@ -10,7 +10,8 @@ from kivymd.uix.label import MDLabel
 from kivymd.uix.textfield import MDTextField
 from kivymd.uix.list import MDList, OneLineListItem
 from plyer import notification
-from database import ReminderDatabase
+
+from .database import ReminderDatabase
 
 
 KV = '''
