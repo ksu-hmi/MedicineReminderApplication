@@ -1,4 +1,4 @@
-# MedicineReminderApplication
+ # Medicine Reminder Application
 Simple medicine reminder app using python
 
 To build an APK for Android from your Kivy application, we will use Buildozer, a tool that automates the process of packaging Kivy applications for Android. Below is a step-by-step guide to help you through this process.
